@@ -1,0 +1,34 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <string-array name="women">
+        <item>SweatShirt</item>
+        <item>Cardigan</item>
+        <item>Jacket</item>
+        <item>Blazer</item>
+        <item>Blouse</item>
+        <item>Jeans Pants</item>
+    </string-array>
+    <string-array name="men">
+        <item>SweatShirt</item>
+        <item>SweatPants</item>
+        <item>Jacket</item>
+        <item>Shirts</item>
+        <item>Blazer</item>
+        <item>T_Shirt</item>
+        <item>Jeans</item>
+    </string-array>
+    <string-array name="child">
+        <item>Dress</item>
+        <item>Jacket</item>
+        <item>Shirts</item>
+        <item>T_Shirt</item>
+        <item>Jeans</item>
+    </string-array>
+
+</resources>

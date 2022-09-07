@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout
+    android:orientation="horizontal"
+    android:id="@+id/search"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <ListView android:id="@+id/search_list" android:layout_height="match_parent" android:layout_width="match_parent" android:layout_below="@+id/get_text"/>
+
+    <EditText android:id="@+id/get_text" android:layout_height="40dp" android:layout_width="250dp" android:background="#ffffff" android:layout_alignParentTop="true" android:inputType="text" android:iconifiedByDefault="false" android:hint="Search Here" android:drawableStart="@drawable/places_ic_search"/>
+
+    <ImageView android:id="@+id/search_by_voice" android:layout_height="40dp" android:layout_width="50dp" android:background="@drawable/ic_baseline_mic_24" android:layout_marginStart="250dp"> </ImageView>
+
+    <ImageView android:id="@+id/search_by_parcode" android:layout_height="40dp" android:layout_width="50dp" android:background="@drawable/ic_baseline_photo_camera_24" android:layout_marginStart="320dp"> </ImageView>
+
+</RelativeLayout>
+
+</LinearLayout>

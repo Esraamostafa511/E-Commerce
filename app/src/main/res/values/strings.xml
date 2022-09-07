@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">E-commerce app</string>
+    <string name="profile">Profile</string>
+    <string name="username">Username</string>
+    <string name="pass">Password</string>
+    <string name="phone">phone number</string>
+    <string name="location">Location</string>
+    <string name="password">password</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
